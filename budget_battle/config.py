@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MODEL_ID = "gemini-3.7-flash"
+MODEL_ID = "gemini-3.6-flash"
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 RECEIPTS_DIR = PROJECT_ROOT / "receipts"
